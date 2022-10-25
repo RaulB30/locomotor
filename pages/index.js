@@ -21,6 +21,7 @@ export default function Home() {
       <Slider texto="Testimonio 1"></Slider>
       <Slider texto="Testimonio 2"></Slider>
       <Slider texto="Testimonio 3"></Slider>
+      <Slider texto="Testimonio 4"></Slider>
     </div> 
   );
 }
