@@ -6,10 +6,6 @@ import Nav from "../Componentes/nav";
 import Slider from "../Componentes/slider";
 
 export default function Home() {
-
-  
-
-
   return (
     <div className={styles.container}>
       <Head>
@@ -23,6 +19,6 @@ export default function Home() {
       <Slider texto="Testimonio 3"></Slider>
       <Slider texto="Testimonio 4"></Slider>
       <Slider texto="Testimonio 5"></Slider>
-    </div> 
+    </div>
   );
 }

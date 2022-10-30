@@ -22,10 +22,11 @@ export default function Slider(props) {
             justify-content: space-between;
             grid-template-columns: repeat(2, max-content);
             width: 1200px;
+            gap:0px;
             padding: 20px 0px;
           }
           .text__testimonio {
-            width: 600px;
+            width: 50vh;
           }
 
           h2 {
@@ -47,6 +48,28 @@ export default function Slider(props) {
             overflow: hidden;
             opacity: 1;
             margin-bottom: 20px;
+          }
+
+          @media screen (max-width: 1200px) {
+            .main__container {
+              margin: 0 auto;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              width: 500px;
+              padding: 20px 0px;
+              flex-direction: column;
+            }
+            .image_slider {
+              display: block;
+              margin-top: 20px;
+              width: 500px;
+              height: 400px;
+              border-radius: 30px;
+              overflow: hidden;
+              opacity: 1;
+              margin-bottom: 20px;
+            }
           }
         `}
       </style>
